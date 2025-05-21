@@ -63,11 +63,11 @@ Em seguida rode o projeto, com a api rodando com sucesso, chegou a hora dos test
 }
 ```
 ### Ver reservas por sala (GET)
-**URL:** GET http://localhost:8080/reservas/sala/1
+**URL:** GET http://localhost:8080/reservas/1
 
 ### Cancelar reserva (DELETE)
-**URL:** DELETE http://localhost:8080/reservas/1
----
+**URL:** Delete http://localhost:8080/reservas/1
+--- 
 
 ###  Regras de Negócio
 
