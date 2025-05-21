@@ -32,7 +32,7 @@ Siga os passos abaixo para rodar no seu computador:
 ```bash
 git clone https://github.com/seu-usuario/api-reservas-salas.git
 cd gerenciamentoSalas
-
+```
 Em seguida rode o projeto, com a api rodando com sucesso, chegou a hora dos testes.
 
 ##  Testando a API no Insomnia ou Postman
@@ -48,7 +48,7 @@ Em seguida rode o projeto, com a api rodando com sucesso, chegou a hora dos test
   "capacidadeMax": 10,
   "localizacao": "Bloco A - 2º andar"
 }
-
+```
 
 ### Criar reserva (POST)
 **URL:** POST http://localhost:8080/reservas
@@ -61,7 +61,7 @@ Em seguida rode o projeto, com a api rodando com sucesso, chegou a hora dos test
   "dataHoraInicio": "2025-06-01T14:00:00",
   "dataHoraFim": "2025-06-01T15:00:00"
 }
-
+```
 ### Ver reservas por sala (GET)
 **URL:** GET http://localhost:8080/reservas/sala/1
 
